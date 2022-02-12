@@ -1,0 +1,9 @@
+model {
+    User user
+}
+json {
+  name user.name
+  description user.description
+  email user.email
+  role user.role.name
+}
